@@ -36,7 +36,7 @@
   
     <header class="top">
     
-        <h1 class="h1 site-title no-margin site-logo mega center lh-1 padding-top"><?php echo site_name(); ?></h1>
+        <h1 class="h1 site-title no-margin site-logo mega center lh-1 padding-top"><a href="<?php echo base_url(); ?>"></a><?php echo site_name(); ?></a></h1>
       
         <h2 class="sans-serif caps title-spacing tagline center"><?php echo site_description(); ?></h2>
       
