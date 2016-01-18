@@ -8,7 +8,7 @@
 
             <div class="content">
 
-            <h2 class="small-title sans-serif caps">Written <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?></h2>
+            <h2 class="small-title sans-serif caps">Written <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?>.</h2>
 
             <a href="<?php echo article_url(); ?>"><h2 class="h2"><?php echo article_title(); ?></h2></a>
 
