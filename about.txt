@@ -1,5 +1,5 @@
-Theme name:    Write
+Theme name:    Write (@limenet)
 Description:   A super minimal, typography-direction theme for Anchor CMS.
-Author name:   Kostya Kozak
+Author name:   Kostya Kozak / Linus Metzler
 Author site:   http://twitter.com/kostyakozak
 License:       http://licence.visualidiot.com
