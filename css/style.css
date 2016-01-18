@@ -1,16 +1,16 @@
 /*
-    Theme name: Write
+    Theme name: Write (@limenet)
     Description: A super minimal, typography-direction theme for Anchor CMS.
-    Author name: Kostya Kozak
+    Author name: Kostya Kozak / Linus Metzler
     Anchor version: 0.9 - 1.0
     Twitter: http://twitter.com/kostyakozak
     License: http://licence.visualidiot.com
-    
+
     Oh, baby! It's free! Go to http://github.com/koskz and grab it.
 */
 
 
-html { 
+html {
   height: 100%;
 }
 
@@ -18,12 +18,12 @@ body {
 font-family: Open Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-weight: 400;
 font-style: normal;
-color: #000; 
+color: #000;
   position:relative;
   height: 100%;
 }
 
-a {  
+a {
 color: rgba(50,50,50,0.79);
 font-weight: 600;
 text-decoration: none;
@@ -45,7 +45,7 @@ color:black;
 transition: color .15s ease-out;
 }
 
-article a:hover { 
+article a:hover {
 	color: rgba(79,79,79,1);
 }
 
@@ -58,9 +58,9 @@ a {
 }
 
 .content {
-  max-width:720px; 
-  margin:0 auto; 
-  width:100%; 
+  max-width:720px;
+  margin:0 auto;
+  width:100%;
   padding:0 20px 20px 20px;
 }
 
@@ -99,7 +99,7 @@ a {
 .padding-bottom {   padding-bottom: 40px;}
 
 .no-margin {        margin:0;}
-.margin-top-20 {    margin-top:80px;} 
+.margin-top-20 {    margin-top:80px;}
 .bottom-clear {     margin-bottom:40px;}
 .centered {         margin:0 auto;}
 .section-margin {
@@ -109,23 +109,23 @@ a {
 
 .top {
 	padding: 0 0 40px 0;
-	
+
 }
 
 .site-logo { font-family: 'Pacifico', cursive;}
-.mega {font-size:130px; margin-bottom: 45px;}  
+.mega {font-size:130px; margin-bottom: 45px;}
 .center {text-align:center;}
 .serif {font-family:"ff-meta-serif-web-pro";}
 .tagline {font-size:16px!important;color:#777;}
 .sans-serif {font-family: 'Montserrat', sans-serif;}
 .caps {text-transform:uppercase;}
 .title-spacing {letter-spacing:.1em;}
-.small-title {font-size:16px; color:rgba(0,0,0,0.66);}  
+.small-title {font-size:16px; color:rgba(0,0,0,0.66);}
 .lh-1 {line-height:1;}
 .h2 {font-size:32px;}
 
 .pagination a{
-font-weight: 400; 
+font-weight: 400;
 font-size: 13px;
 color: #888;
 text-transform: uppercase;
@@ -140,17 +140,17 @@ text-transform: uppercase;
   font-size:48px;
 }
 
-.text-link { 
+.text-link {
   text-decoration:none;
   color:#333;
 }
 
-p { 
+p {
   font-size:20px;
-  line-height:1.5; 
+  line-height:1.5;
 }
 
-.meta { 
+.meta {
   font-size:12px;
   color:#999;
 }
@@ -179,7 +179,7 @@ h1,h2,h3,h4,h5,h6 {font-weight:100;}
 .pages {
   border-top:1px solid #eee;
   margin-top: 18px;
-  
+
 }
 
 nav {
@@ -198,11 +198,11 @@ padding: 0 20px 20px 20px;
   font-size:13px;
   font-weight: 400;
   background:#fff;
-  opacity:0.6; 
+  opacity:0.6;
   color:#3e3a3a;
   border-top:1px solid #eee;
   margin-top: 10px;
-  padding:20px 0; 
+  padding:20px 0;
   line-height:2;
   .text-link {color:darken(cyan, 40%);padding-right:20px; -webkit-transition:top .2s;top:0;position:relative;}
   .text-link:hover {-webkit-transition: color ease-in .2s; color:#999;}
@@ -245,7 +245,18 @@ opacity: 1.0;
 
 @media screen and (max-width:480px) {
  .h2 {font-size:24px;}
- .mega {font-size:96px;} 
+ .mega {font-size:96px;}
  .mobile-small {font-size:16px!important;}
  .mobile-hide {display:none;}
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 5px;
+  background: none;
+  border: 1px solid #ddd;
+}
+
+li.comment {
+  list-style-type: none;
 }
