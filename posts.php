@@ -3,7 +3,7 @@
     <?php if(has_posts()): ?>
         <? $i = 0;while(posts()): ?>
         <?php $bg = sprintf('background: hsl(215, 28%%, %d%%);', round(((++$i / posts_per_page()) * 20) + 20)); ?>
-            <?php echo $i > 1 ? "<hr>" : '' ?>
+            <?php echo $i > 1 ? "<hr>" : ''; ?>
             <h2><a href="<?php echo article_url(); ?>"><?php echo article_title(); ?></a></h2>
             <p class="small-title">Written <time title="<?php echo date('Y-m-d H:i:s', article_time());?>" datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?>.</p>
             <p><?php echo article_markdown(); ?></p>
