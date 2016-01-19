@@ -53,7 +53,7 @@ a {
 }
 
 a.no-styling {
-    border: none;
+    border: none !important;
 }
 
 h2 + .small-title {
