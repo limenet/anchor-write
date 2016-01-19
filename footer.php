@@ -12,7 +12,7 @@
                 endif; ?>
             </ul>
         </nav>
-        <p class="center">&copy; <?php echo date('Y'); ?> / <a href="//anchorcms.com" target="_blank">Anchor</a></p>
+        <p class="center">&copy; <?php echo date('Y'); ?> / <a href="//anchorcms.com" target="_blank">⚓</a></p>
     </footer>
     </body>
 </html>
