@@ -1,7 +1,7 @@
 <?php theme_include('header'); ?>
 <section id="main">
     <?php if(has_posts()): ?>
-        <? $i = 0;while(posts()): ?>
+        <?php $i = 0; while(posts()): ?>
         <?php $bg = sprintf('background: hsl(215, 28%%, %d%%);', round(((++$i / posts_per_page()) * 20) + 20)); ?>
             <?php echo $i > 1 ? "<hr>" : ''; ?>
             <h2><a href="<?php echo article_url(); ?>"><?php echo article_title(); ?></a></h2>
