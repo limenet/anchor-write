@@ -9,7 +9,11 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="<?php echo theme_url('/css/i.css'); ?>">
+    <link rel="stylesheet" href="<?php echo theme_url('/css/normalize.css'); ?>">
+    <link rel="stylesheet" href="<?php echo theme_url('/css/style.css'); ?>">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,cyrillic">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Pacifico&subset=latin,cyrillic">
     <link rel="shortcut icon" href="<?php echo theme_url('/css/favicon.png'); ?>">
     <meta name="generator" content="Anchor CMS">
     <?php if(customised()): ?>
