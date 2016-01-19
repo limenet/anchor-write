@@ -13,7 +13,7 @@
 			</ul>
 		</nav>
 
-        <p></p>&copy; <?php echo date('Y'); ?> / <a href="//anchorcms.com" target="_blank">Anchor</a></p>
+        <p>&copy; <?php echo date('Y'); ?> / <a href="//anchorcms.com" target="_blank">Anchor</a></p>
 
     </footer>
 
