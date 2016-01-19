@@ -1,5 +1,5 @@
-    <footer class="footer center">
-        <nav id="main" role="navigation">
+    <footer id="footer">
+        <nav>
             <ul>
                 <?php if(has_menu_items()):
                     while(menu_items()): ?>
@@ -12,7 +12,7 @@
                 endif; ?>
             </ul>
         </nav>
-        <p>&copy; <?php echo date('Y'); ?> / <a href="//anchorcms.com" target="_blank">Anchor</a></p>
+        <p class="center">&copy; <?php echo date('Y'); ?> / <a href="//anchorcms.com" target="_blank">Anchor</a></p>
     </footer>
     </body>
 </html>

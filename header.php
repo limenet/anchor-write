@@ -20,7 +20,7 @@
 	<?php endif; ?>
   </head>
   <body>
-    <header class="top">
-        <h1 class="no-margin site-logo mega center lh-1 padding-top"><a href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a></h1>
-        <h2 class="sans-serif caps title-spacing tagline center"><?php echo site_description(); ?></h2>
+    <header id="header">
+        <h1 class="site-logo"><a href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a></h1>
+        <h2 class="small-title tagline"><?php echo site_description(); ?></h2>
     </header>

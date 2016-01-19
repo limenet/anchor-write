@@ -6,15 +6,6 @@
 	Note: we recommend you prefix all your functions to avoid any naming
 	collisions or wrap your functions with if function_exists braces.
 */
-function numeral($number) {
-	$test = abs($number) % 10;
-	$ext = ((abs($number) % 100 < 21 and abs($number) % 100 > 4) ? 'th' : (($test < 4) ? ($test < 3) ? ($test < 2) ? ($test < 1) ? 'th' : 'st' : 'nd' : 'rd' : 'th'));
-	return $number . $ext;
-}
-
-function count_words($str) {
-	return count(preg_split('/\s+/', strip_tags($str), null, PREG_SPLIT_NO_EMPTY));
-}
 
 function pluralise($amount, $str, $alt = '') {
 	return intval($amount) === 1 ? $str : $str . ($alt !== '' ? $alt : 's');
@@ -53,12 +44,4 @@ function relative_time($date) {
 			return $rounded . ' ' . pluralise($rounded, $title) . ' ago';
 		}
 	}
-}
-
-function twitter_account() {
-	return site_meta('twitter', 'idiot');
-}
-
-function twitter_url() {
-	return 'https://twitter.com/' . twitter_account();
 }
