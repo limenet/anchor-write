@@ -218,8 +218,9 @@ input, textarea {
     -webkit-filter: grayscale(100%);
     vertical-align: middle;
     margin-top: -2px;
+    transition: all .15s ease-in;
 }
-#limenet-logo:hover, #limenet-logo:focus {
+#footer:hover #limenet-logo, #limenet-logo:focus {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
 }
