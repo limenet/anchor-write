@@ -257,6 +257,10 @@ input, textarea, button {
   border: 1px solid #ddd;
 }
 
+input, textarea {
+  border-top: none; border-right: none; border-left: none;
+}
+
 li.comment {
   list-style-type: none;
 }
