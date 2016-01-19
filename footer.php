@@ -12,7 +12,7 @@
                 endif; ?>
             </ul>
         </nav>
-        <p class="center">&copy; <?php echo date('Y'); ?> / <a href="//anchorcms.com" target="_blank">⚓</a></p>
+        <p class="center">&copy; <?php echo date('Y'); ?> / <a href="//anchorcms.com" target="_blank">⚓</a> / <img id="limenet-logo" src="https://s3.amazonaws.com/limenet-logo-img/v2/icon-transparent-13.png"></p>
     </footer>
     </body>
 </html>
