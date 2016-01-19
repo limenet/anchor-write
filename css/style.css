@@ -208,3 +208,14 @@ input, textarea {
     border-right: none;
     border-left: none;
 }
+
+#limenet-logo {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    vertical-align: middle;
+    margin-top: -2px;
+}
+#limenet-logo:hover, #limenet-logo:focus {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
