@@ -8,7 +8,7 @@
             <p class="small-title">Written <time title="<?php echo date('Y-m-d H:i:s', article_time());?>" datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?>.</p>
             <p><?php echo article_markdown(); ?></p>
         <?php endwhile; ?>
-        <?php if(has_pagination() || true): ?>
+        <?php if(has_pagination()): ?>
             <hr>
             <section id="pagination">
                <nav>
