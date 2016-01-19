@@ -52,6 +52,10 @@ a {
     border: none !important;
 }
 
+a.no-styling {
+    border: none;
+}
+
 h2 + .small-title {
     margin-top: -20px;
 }
