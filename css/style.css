@@ -68,6 +68,7 @@ h2 + .small-title {
     margin: 0 auto;
     width: 100%;
     padding: 1.5em;
+    padding-top: 0;
 }
 
 .site-logo {
@@ -103,7 +104,8 @@ h2 + .small-title {
 }
 
 #main h2 {
-    font-size: 2em
+    font-size: 2em;
+    margin: .8em 0;
 }
 
 #pagination a {
