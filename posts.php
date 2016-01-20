@@ -4,9 +4,11 @@
         <?php $i = 0; while(posts()): ?>
         <?php $bg = sprintf('background: hsl(215, 28%%, %d%%);', round(((++$i / posts_per_page()) * 20) + 20)); ?>
             <?php echo $i > 1 ? "<hr>" : ''; ?>
-            <h2><a href="<?php echo article_url(); ?>"><?php echo article_title(); ?></a></h2>
-            <p class="small-title">Written <time title="<?php echo date('Y-m-d H:i:s', article_time());?>" datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?> in <a href="<?php echo article_category_url(); ?>"><?php echo article_category(); ?></a>.</p>
-            <article><?php echo article_markdown();?></article>
+            <article>
+                <h2><a href="<?php echo article_url(); ?>"><?php echo article_title(); ?></a></h2>
+                <p class="small-title">Written <time title="<?php echo date('Y-m-d H:i:s', article_time());?>" datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?> in <a href="<?php echo article_category_url(); ?>"><?php echo article_category(); ?></a>.</p>
+                <div><?php echo article_markdown();?></div>
+            </article>
         <?php endwhile; ?>
         <?php if(has_pagination()): ?>
             <hr class="spacing">
