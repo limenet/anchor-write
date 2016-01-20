@@ -39,7 +39,7 @@
 	<?php endif; ?>
    </head>
    <body>
-    <header id="header">
-        <h1 class="site-logo"><a href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a></h1>
-        <h2 class="small-title tagline"><?php echo site_description(); ?></h2>
-    </header>
+        <header id="header">
+            <h1 class="site-logo"><a href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a></h1>
+            <h2 class="small-title tagline"><?php echo site_description(); ?></h2>
+        </header>
