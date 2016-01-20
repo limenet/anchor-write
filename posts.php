@@ -9,8 +9,8 @@
             <p><?php echo article_markdown();?></p>
         <?php endwhile; ?>
         <?php if(has_pagination()): ?>
-            <hr>
-            <section id="pagination">
+            <hr class="spacing">
+            <section id="pagination" class="clearfix">
                <nav>
                    <item style="float:left;"><?php echo posts_next('← Newer'); ?></item>
                    <item style="float:right;"><?php echo posts_prev('Older →'); ?></item>

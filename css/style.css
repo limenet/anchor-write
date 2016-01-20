@@ -10,7 +10,7 @@
  */
 
 html {
-    height: 100%
+    font-size: 1em;
 }
 
 body {
@@ -19,7 +19,6 @@ body {
     font-style: normal;
     color: #000;
     position: relative;
-    height: 100%;
 }
 
 a {
@@ -29,7 +28,7 @@ a {
 }
 
 #header {
-    padding: 0 0 40px 0;
+    padding: 0 0 3em 0;
     border-bottom: 1px solid #ddd;
 }
 
@@ -57,7 +56,7 @@ a.no-styling {
 }
 
 h2 + .small-title {
-    margin-top: -20px;
+    margin-top: -1.5em;
 }
 
 * {
@@ -65,26 +64,19 @@ h2 + .small-title {
 }
 
 #main {
-    margin-top: 0px;
-    padding-top: 40px;
     max-width: 720px;
     margin: 0 auto;
     width: 100%;
-    padding: 0 20px 20px 20px;
-}
-
-.section-padding {
-    padding: 60px 0 40px 0
+    padding: 1.5em;
 }
 
 .site-logo {
     font-family: 'Pacifico', cursive;
-    font-size: 130px;
-    margin-bottom: 45px;
+    font-size: 8em;
     margin: 0;
     text-align: center;
     line-height: 1;
-    padding-top: 40px;
+    padding-top: .3em;
     font-weight: 600;
 }
 
@@ -96,29 +88,27 @@ h2 + .small-title {
     font-family: "ff-meta-serif-web-pro"
 }
 
-.tagline {
+.small-title.tagline {
     letter-spacing: .1em;
     text-align: center;
+    margin: .8em 0;
+    font-size: 1.1em;
 }
 
 .small-title {
-    font-size: 16px;
+    font-size: .9em;
     color: #777;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
 #main h2 {
-    font-size: 32px
-}
-
-#pagination {
-    margin-bottom: 40px;
+    font-size: 2em
 }
 
 #pagination a {
     font-weight: 400;
-    font-size: 13px;
+    font-size: .8em;
     color: #888;
     text-transform: uppercase;
     border: none !important;
@@ -129,7 +119,7 @@ h2 + .small-title {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1em;
     line-height: 1.5;
 }
 
@@ -137,18 +127,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 100
 }
 
-nav {
-    max-width: 720px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 20px 20px 20px;
-}
-
 #footer {
     background: #fff;
     opacity: 0.6;
-    margin-top: 10px;
-    padding: 20px 0;
+    padding-top: 2em;
     transition: opacity .15s ease-out;
     border-top: 1px solid #ddd;
 }
@@ -157,42 +139,35 @@ nav {
     opacity: 1.0
 }
 
-#footer p, #footer li {
+#footer{
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: .8em;
     font-weight: 400;
     color: #3e3a3a;
     line-height: 2;
 }
 
-#footer li {
-    list-style-type: none;
-    float: left;
-    margin-right: 40px;
+#footer a.active {
+    color: #000;
 }
 
-#footer li.active a {
-    color: #000;
+#footer nav p a {
+    margin: 0 1em 0 0;
 }
 
 hr {
     border: 0;
     border-top: 1px solid #ddd;
     color: #ddd;
-    padding-top: 40px;
 }
 
-@media screen and (max-width:480px) {
-    .h2 {
-        font-size: 24px
-    }
+hr.spacing {
+    margin: 1.5em 0;
+}
 
-    .mega {
-        font-size: 96px
-    }
-
-    .mobile-small {
-        font-size: 16px!important
+@media screen and (max-width:48.1em) {
+    .site-logo {
+        font-size: 4em;
     }
 
     .mobile-hide {
@@ -223,4 +198,10 @@ input, textarea {
 #footer:hover #limenet-logo, #limenet-logo:focus {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
